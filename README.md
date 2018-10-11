@@ -131,7 +131,7 @@ $ python app.py
 * for ascending :- replace ______ by field-name and 
 * for descending :- replace _______ by -field-name
 
-### 6. To search based on max/min in integer columns :-
+### 6. To search based on max/min in string columns :-
 
 ##### GET /tweets/string_search?column_name=________ & start=______ & end=______ 
 
@@ -153,7 +153,7 @@ $ python app.py
 
  
 
-#### 7. To search based on max/min in integer columns :-
+### 7. To search based on max/min in integer columns :-
 
 ##### GET /tweets/integer_search?column_name=________ & max=______ & min=______
 
@@ -162,7 +162,7 @@ $ python app.py
 * replace the space in min variable with minimum value for the column name
 * enter both in case you want to give both constraints
 
-#### 8. To filter based on Date :-
+### 8. To filter based on Date :-
 
 ##### GET /tweets/date?startDate=________ & endDate=_______
 
