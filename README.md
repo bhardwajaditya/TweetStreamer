@@ -139,12 +139,14 @@ $ python app.py
 * replace the space in end variable with the end word you want to search in the given column
 * replace the space in start variable with the starting word you want to search in the given column
 * enter both in case you want to give both constraints
+ 
 ##### GET /tweets/string_search?column_name=________ &contain=_______
-#
+
 * here enter the integer column name in which you want to search in the space column_name=______
 * replace the contain variable with the word you want the resulting column entries must contain
+
 ##### GET /tweets/string_search?column_name=________ & match=_____
-#
+
 
 * here enter the integer column name in which you want to search in the space column_name=______
 * replace the match variable with the word to list down the entries with that word in the given column
