@@ -88,11 +88,11 @@ $ python app.py
 
 
 ##### GET /stream?keywords=______________
-#
+
 * here replace ____ by keywords you want to search seperated by a comma
 
 ##### GET /stream?keywords=________  &time_limit=____________
-#
+
 * here replace {any-keyword} by keywords you want to search,
 * {time-limit} by an integer value in seconds stating the time limit for which you want to stream the tweets.
 * default time limit is 100 seconds
@@ -108,20 +108,20 @@ $ python app.py
 ### 2. To fetch the tweets :-
 
 ##### GET /tweets/?limit=_____ & page=______
-#
+
 * to return a limited number of tweets :- replace limit=______ with an integer value
 * to return based on page number with 50 tweets per page :- replace page=____ with an integer value
 
 ### 3. To fetch the users :-
 
 ##### GET /users/name=____________
-#
+
 * here replace ______ by username to search for a particular user 
 
 ### 4. To search in tweets :-
 
 ##### GET /tweets/?search=______
-#
+
 * here replace ______ by the appropriate words you want to search for in tweet text
 
 ### 5. To sort/order the tweets with respect to a particular field :-
@@ -132,9 +132,9 @@ $ python app.py
 * for descending :- replace _______ by -field-name
 
 ### 6. To search based on max/min in integer columns :-
-###
+
 ##### GET /tweets/string_search?column_name=________ & start=______ & end=______ 
-#
+
 * here enter the integer column name in which you want to search in the space column_name=______
 * replace the space in end variable with the end word you want to search in the given column
 * replace the space in start variable with the starting word you want to search in the given column
@@ -154,7 +154,7 @@ $ python app.py
 #### 7. To search based on max/min in integer columns :-
 
 ##### GET /tweets/integer_search?column_name=________ & max=______ & min=______
-#
+
 * here enter the integer column name in which you want to search in the space column_name=______
 * replace the space in max variable with the maximum value for the column name
 * replace the space in min variable with minimum value for the column name
@@ -163,7 +163,7 @@ $ python app.py
 #### 8. To filter based on Date :-
 
 ##### GET /tweets/date?startDate=________ & endDate=_______
-#
+
 
 * replace the space in startDate variable with the starting date from which you want the tweets to be displayed
 * replace the space in endDate variable with the ending date from which you want the tweets to be displayed
@@ -172,7 +172,7 @@ $ python app.py
 ### 9. To export tweets data as CSV:-
 
 ##### GET /csv/
-#
+
 
 ### Technologies used :-
 
